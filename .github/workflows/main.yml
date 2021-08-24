@@ -47,6 +47,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.0.0
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "your_app_name"
-          heroku_email: "magarzon46@gmail.com"
+          heroku_app_name: ciberseguridad2021
+          heroku_email: magarzon46@gmail.com
           usedocker: true
