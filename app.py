@@ -1,4 +1,4 @@
-fom flask import Flask, Response
+from flask import Flask, Response
 import requests
 import json
 import logging
